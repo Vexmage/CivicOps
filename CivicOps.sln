@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6011C0F-7E70-441B-9D3E-5AED6ADDAFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicOps.Domain", "src\CivicOps.Domain\CivicOps.Domain.csproj", "{4169BB44-F59D-4826-A488-3CE4F5D56134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicOps.Contracts", "src\CivicOps.Contracts\CivicOps.Contracts.csproj", "{FC116EF0-3FD6-41CB-9B99-33B22BEC6634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicOps.Data", "src\CivicOps.Data\CivicOps.Data.csproj", "{9853E3FF-0099-4182-B745-3A494D0E1F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicOps.Api", "src\CivicOps.Api\CivicOps.Api.csproj", "{114C2DD1-1458-44EE-A9F4-E4F4C829B424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicOps.Ui", "src\CivicOps.Ui\CivicOps.Ui.csproj", "{FDB9316E-AD81-4777-ABE9-F1DE32819047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E8DFD056-CF16-44FE-9ABF-D67554E1E9C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicOps.ApiTests", "tests\CivicOps.ApiTests\CivicOps.ApiTests.csproj", "{33164341-94B9-4EF1-8985-6F06F58BE8B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4169BB44-F59D-4826-A488-3CE4F5D56134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4169BB44-F59D-4826-A488-3CE4F5D56134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4169BB44-F59D-4826-A488-3CE4F5D56134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4169BB44-F59D-4826-A488-3CE4F5D56134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC116EF0-3FD6-41CB-9B99-33B22BEC6634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC116EF0-3FD6-41CB-9B99-33B22BEC6634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC116EF0-3FD6-41CB-9B99-33B22BEC6634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC116EF0-3FD6-41CB-9B99-33B22BEC6634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9853E3FF-0099-4182-B745-3A494D0E1F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9853E3FF-0099-4182-B745-3A494D0E1F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9853E3FF-0099-4182-B745-3A494D0E1F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9853E3FF-0099-4182-B745-3A494D0E1F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114C2DD1-1458-44EE-A9F4-E4F4C829B424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114C2DD1-1458-44EE-A9F4-E4F4C829B424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114C2DD1-1458-44EE-A9F4-E4F4C829B424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114C2DD1-1458-44EE-A9F4-E4F4C829B424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB9316E-AD81-4777-ABE9-F1DE32819047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB9316E-AD81-4777-ABE9-F1DE32819047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB9316E-AD81-4777-ABE9-F1DE32819047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB9316E-AD81-4777-ABE9-F1DE32819047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33164341-94B9-4EF1-8985-6F06F58BE8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33164341-94B9-4EF1-8985-6F06F58BE8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33164341-94B9-4EF1-8985-6F06F58BE8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33164341-94B9-4EF1-8985-6F06F58BE8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4169BB44-F59D-4826-A488-3CE4F5D56134} = {C6011C0F-7E70-441B-9D3E-5AED6ADDAFDD}
+		{FC116EF0-3FD6-41CB-9B99-33B22BEC6634} = {C6011C0F-7E70-441B-9D3E-5AED6ADDAFDD}
+		{9853E3FF-0099-4182-B745-3A494D0E1F6D} = {C6011C0F-7E70-441B-9D3E-5AED6ADDAFDD}
+		{114C2DD1-1458-44EE-A9F4-E4F4C829B424} = {C6011C0F-7E70-441B-9D3E-5AED6ADDAFDD}
+		{FDB9316E-AD81-4777-ABE9-F1DE32819047} = {C6011C0F-7E70-441B-9D3E-5AED6ADDAFDD}
+		{33164341-94B9-4EF1-8985-6F06F58BE8B9} = {E8DFD056-CF16-44FE-9ABF-D67554E1E9C9}
+	EndGlobalSection
+EndGlobal
