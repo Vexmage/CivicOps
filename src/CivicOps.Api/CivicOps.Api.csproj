@@ -1,15 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <ItemGroup>
-    <ProjectReference Include="..\CivicOps.Domain\CivicOps.Domain.csproj" />
-    <ProjectReference Include="..\CivicOps.Contracts\CivicOps.Contracts.csproj" />
-    <ProjectReference Include="..\CivicOps.Data\CivicOps.Data.csproj" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>bf653424-6f28-4ca5-9b38-a5113a6512b1</UserSecretsId>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\CivicOps.Domain\CivicOps.Domain.csproj" />
+		<ProjectReference Include="..\CivicOps.Contracts\CivicOps.Contracts.csproj" />
+		<ProjectReference Include="..\CivicOps.Data\CivicOps.Data.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.20" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
+	</ItemGroup>
 
 </Project>
