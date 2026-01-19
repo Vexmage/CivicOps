@@ -13,6 +13,9 @@ public enum WorkItemStatus
 
 public sealed record WorkItemResponse(
     Guid Id,
+    Guid CreatedByUserId,
+    Guid? AssignedToUserId,
+    Guid UpdatedByUserId,
     string Title,
     string? Description,
     WorkItemStatus Status,
@@ -20,13 +23,17 @@ public sealed record WorkItemResponse(
     DateTimeOffset UpdatedAt
 );
 
+
 public sealed record CreateWorkItemRequest(
     string Title,
-    string? Description
+    string? Description,
+    Guid? AssignedToUserId
 );
+
 
 public sealed record UpdateWorkItemRequest(
     string? Title,
     string? Description,
-    WorkItemStatus? Status
+    WorkItemStatus? Status,
+    Guid? AssignedToUserId
 );
